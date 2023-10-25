@@ -1,13 +1,34 @@
+/*************** Start Global Style ***************/
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: 'Markazi Text', serif;
 }
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  border: 0 !important;
+}
+::selection{
+  background-color: #6d557c;
+  color: #fff;
+}
+
+
+/*************** End Global Style ***************/
