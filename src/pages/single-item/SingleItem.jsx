@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./single-item.css"
+import { Link } from "react-router-dom";
 const SingleItem = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -46,7 +47,11 @@ const SingleItem = () => {
                   </span>
                 </div>
                 <div className="item">
-                  <img src="/images/img3.jpeg" class="card-img rounded-3" alt="..." />
+                  <img
+                    src="/images/img3.jpeg"
+                    class="card-img rounded-3"
+                    alt="..."
+                  />
                   <h4>
                     بــــروســتــد ريــــزو ايــت اب ( عائــلــي ) دجاجة مقرمشة
                   </h4>
@@ -92,6 +97,11 @@ const SingleItem = () => {
                     <label>ملاحظة</label>
                     <textarea></textarea>
                   </div>
+                  <button className="add-to-cart my-2 d-inline-block">
+                    <Link to="" className="">
+                      اضافة الي سلة التسوق
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

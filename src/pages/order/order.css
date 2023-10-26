@@ -1,6 +1,5 @@
 .right-section {
     position: relative;
-    background-image: none;
 }
 
 .search-container .icon.bi-search {
@@ -81,6 +80,16 @@
 .menu-btn-open {
     display: none;
 }
+.card-btn{
+    background-color: transparent;
+    color: #fff;
+    text-align: right;
+    border: 0;
+    outline: 0;
+ }
+ .card-link{
+        color: #fff;
+ }
 
 @media (max-width: 991px) {
     .image-container {

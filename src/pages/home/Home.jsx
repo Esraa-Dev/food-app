@@ -1,7 +1,6 @@
+import { Link } from "react-router-dom";
 import "./home.css";
 import React, { useEffect, useState } from "react";
-
-// import logo from "../../../public/images/logo.jpg";
 const Home = () => {
   const [openMenu, setOpenMenu] = useState(false);
   console.log(openMenu);
@@ -10,7 +9,11 @@ const Home = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-5  p-0">
-            <div className={`right-section  ${openMenu && "open"}`}>
+            <div
+              className={`right-section right-section-img  ${
+                openMenu && "open"
+              }`}
+            >
               <div className="overlay">
                 <button
                   className="btn open-icon"
@@ -32,7 +35,9 @@ const Home = () => {
                   </p>
                   <div className="btns w-100 mx-auto">
                     <button type="button" className="btn w-75 px-5 py-3 mb-2">
-                      طلب داخلي
+                      <Link className="order-btn" to="/order">
+                        طلب داخلي
+                      </Link>
                     </button>
                     <button type="button" className="btn w-75 px-5 py-3 mb-2">
                       التوصيل

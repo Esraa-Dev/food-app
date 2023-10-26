@@ -1,5 +1,6 @@
 import "./order.css";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 const Order = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
@@ -54,10 +55,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -69,10 +70,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -84,10 +85,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -99,10 +100,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -114,10 +115,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -129,10 +130,10 @@ const Order = () => {
                           alt="..."
                         />
                         <div class="card-img-overlay">
-                          <p class="card-text h-100 d-flex align-items-end">
-                            اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                            عائــلــي )
-                          </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/items/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                         </div>
                       </div>
                     </div>

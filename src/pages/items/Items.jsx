@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./items.css"
 const Items = () => {
       const [openMenu, setOpenMenu] = useState(false);
@@ -51,14 +52,24 @@ const Items = () => {
                     <div class="card text-bg-dark ">
                       <img src="/images/img3.jpeg" class="card-img" alt="..." />
                       <div class="card-img-overlay">
-                        <p class="card-text h-100 d-flex align-items-end">
-                          اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
-                          عائــلــي )
-                        </p>
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/item/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
                       </div>
                     </div>
                   </div>
-                 
+                  <div className="col-6 p-1">
+                    <div class="card text-bg-dark ">
+                      <img src="/images/img3.jpeg" class="card-img" alt="..." />
+                      <div class="card-img-overlay">
+                          <button class="card-btn h-100 d-flex align-items-end">
+                           <Link className="card-link" to="/item/1"> اضغط هنا لمشاهدة بــروســتــد ريــزو ايــت اب (
+                            عائــلــي )</Link>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

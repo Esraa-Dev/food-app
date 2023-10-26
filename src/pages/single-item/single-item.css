@@ -68,3 +68,12 @@
 .item-container .item{
     padding-top: 80px;
 }
+.add-to-cart{
+    border: 1px solid #ccc;
+    color: #000;
+    border-radius: 20px;
+    background-color: #ddd;
+}
+.add-to-cart a{
+        color: #000;
+}

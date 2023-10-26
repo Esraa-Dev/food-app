@@ -10,6 +10,9 @@ body {
   font-family: 'Markazi Text', serif;
 }
 
+a{
+  text-decoration: none !important;
+}
 .center-content {
   display: flex;
   flex-direction: column;
